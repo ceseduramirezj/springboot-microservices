@@ -1,4 +1,4 @@
-package net.javaguides.departmentservice.service.implementation;
+package net.javaguides.departmentservice.service.impl;
 
 import lombok.AllArgsConstructor;
 import net.javaguides.departmentservice.dto.DepartmentDto;
@@ -13,7 +13,7 @@ import java.util.Optional;
 
 @Service
 @AllArgsConstructor
-public class DepartmentServiceImplementation implements DepartmentService {
+public class DepartmentServiceImpl implements DepartmentService {
 
     //Como el constructor cuenta con solo un parametro spring boot automaticamente inyectara este bean
 
